@@ -1,0 +1,51 @@
+/usr/bin/php
+/usr/bin/php
+/usr/bin/php
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies
+PHP 7.2.8-2 (cli) (built: Aug  2 2018 04:09:06) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.8-2, Copyright (c) 1999-2018, by Zend Technologies

@@ -3,7 +3,7 @@ class Command
 {
     const FFMPEG = 'ffmpeg ';
     const FFMPEG_FILTER_COMPLEX = '-filter_complex';
-    const FFMPEG_FILTER_OVERLAY_TOP_RIGHT = 'overlay=W-w-5:5';
+    const FFMPEG_FILTER_OVERLAY_TOP_RIGHT = 'overlay=W-w-5:5,';
     const FFMPEG_FILTER_SPLIT = 'split=%d%s';
     const FFMPEG_VIDEO_0 = '[v:0]';
     const FFMPEG_MAP_720_X264 = '-map \'%s\' -s 1280:720 %s -c:a copy -c:v libx264 -crf %s %s';
@@ -11,14 +11,18 @@ class Command
     const FFMPEG_INPUT = '-i %s';
     const FFMPEG_STATS = '-vstats_file %s';
 
-    const LINUX_IO_REDIR = '2>&1 /dev/null';
+    const LINUX_IO_REDIR = '>/dev/null 2>&1';
     private $title = '';
     private $image='';
+    private $encode_length='';
 
     public function __construct($title, $image)
     {
         $this->title=$title;
         $this->image=$image;
+    }
+
+    function setDuration($start,$length){	    $this->encode_length = " -ss $start -t $length ";
     }
     public function make_command($input, $output1, $output2, $stat_file, $crf=30, $io_redir=true)
     {
@@ -37,7 +41,8 @@ class Command
             $split+=1;
         }
         $split_map = $this->build_map($split);
-        $cmd = self::FFMPEG;
+	$cmd = self::FFMPEG;
+	$cmd .= $this->encode_length;
         if (!is_array($input)) {
             $cmd .= sprintf(self::FFMPEG_INPUT, $input);
         } else {
@@ -76,10 +81,11 @@ class Command
     private function build_filter($image, $split, $type='watermark')
     {
         return sprintf(
-            " %s %s '%s%s' ",
+            " %s %s '%s%s%s' ",
             sprintf(self::FFMPEG_INPUT, $image),
             self::FFMPEG_FILTER_COMPLEX,
-            self::FFMPEG_VIDEO_0,
+	    self::FFMPEG_VIDEO_0,
+	    self::FFMPEG_FILTER_OVERLAY_TOP_RIGHT,
             sprintf(self::FFMPEG_FILTER_SPLIT, $split, str_replace(
                 ' ',
                 '',
